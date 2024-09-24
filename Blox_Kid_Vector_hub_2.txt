@@ -1610,14 +1610,14 @@ end)
  
 if _G.Mode == "English" then
 page1:Label("Join My Discord For More News!")
-    page1:Button("Copy Discord Link",function()
-         setclipboard("https://discord.gg/977JQXX82w")
-         game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "Successfully copied",Icon = "rbxassetid://14645512457",Duration = 3})
+    page1:Button("lấy Discord Link",function()
+         setclipboard("https://discord.gg/URhmM5MrAN")
+         game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "mở thành công nên ko ngu",Icon = "rbxassetid://18944037758",Duration = 3})
     end)
 else
 page1:Label("เข้าดิสคอร์ดเพื่อข่าวสารต่างๆ")
     page1:Button("ก็อปปี้ลิ้งดิสคอร์ด",function()
-        setclipboard("https://discord.gg/977JQXX82w")
+        setclipboard("https://discord.gg/URhmM5MrAN")
         game:GetService("StarterGui"):SetCore("SendNotification",{Title = "VectorHub",Text = "คัดลอกเรียบร้อยแล้ว",Icon = "rbxassetid://14645512457",Duration = 3})
     end)
 end
